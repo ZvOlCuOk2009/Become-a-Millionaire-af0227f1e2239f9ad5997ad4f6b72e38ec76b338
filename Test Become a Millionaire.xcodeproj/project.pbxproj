@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD8005871CABD7BA00DC8A33 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005661CABD7BA00DC8A33 /* AFHTTPSessionManager.m */; };
+		FD8005881CABD7BA00DC8A33 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005691CABD7BA00DC8A33 /* AFNetworkReachabilityManager.m */; };
+		FD8005891CABD7BA00DC8A33 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80056B1CABD7BA00DC8A33 /* AFSecurityPolicy.m */; };
+		FD80058A1CABD7BA00DC8A33 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80056D1CABD7BA00DC8A33 /* AFURLRequestSerialization.m */; };
+		FD80058B1CABD7BA00DC8A33 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80056F1CABD7BA00DC8A33 /* AFURLResponseSerialization.m */; };
+		FD80058C1CABD7BA00DC8A33 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005711CABD7BA00DC8A33 /* AFURLSessionManager.m */; };
+		FD80058D1CABD7BA00DC8A33 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005741CABD7BA00DC8A33 /* AFAutoPurgingImageCache.m */; };
+		FD80058E1CABD7BA00DC8A33 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005761CABD7BA00DC8A33 /* AFImageDownloader.m */; };
+		FD80058F1CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005781CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.m */; };
+		FD8005901CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80057A1CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.m */; };
+		FD8005911CABD7BA00DC8A33 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80057C1CABD7BA00DC8A33 /* UIButton+AFNetworking.m */; };
+		FD8005921CABD7BA00DC8A33 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80057F1CABD7BA00DC8A33 /* UIImageView+AFNetworking.m */; };
+		FD8005931CABD7BA00DC8A33 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005821CABD7BA00DC8A33 /* UIProgressView+AFNetworking.m */; };
+		FD8005941CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005841CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.m */; };
+		FD8005951CABD7BA00DC8A33 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8005861CABD7BA00DC8A33 /* UIWebView+AFNetworking.m */; };
+		FD8005971CABDDA100DC8A33 /* 7b9148f8c96e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD8005961CABDDA100DC8A33 /* 7b9148f8c96e.mp3 */; };
+		FD879D421C96EEC0004F9FCD /* TSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD879D411C96EEC0004F9FCD /* TSCustomButton.m */; };
+		FD89FE651C904B04003F11B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE641C904B04003F11B4 /* main.m */; };
+		FD89FE681C904B06003F11B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE671C904B06003F11B4 /* AppDelegate.m */; };
+		FD89FE6B1C904B06003F11B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE6A1C904B06003F11B4 /* MainViewController.m */; };
+		FD89FE6E1C904B07003F11B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD89FE6C1C904B07003F11B4 /* Main.storyboard */; };
+		FD89FE701C904B07003F11B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD89FE6F1C904B07003F11B4 /* Assets.xcassets */; };
+		FD89FE731C904B07003F11B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD89FE711C904B07003F11B4 /* LaunchScreen.storyboard */; };
+		FD89FE7E1C904B08003F11B4 /* Test_Become_a_MillionaireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE7D1C904B08003F11B4 /* Test_Become_a_MillionaireTests.m */; };
+		FD89FE891C904B08003F11B4 /* Test_Become_a_MillionaireUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE881C904B08003F11B4 /* Test_Become_a_MillionaireUITests.m */; };
+		FD89FE981C9089F8003F11B4 /* TSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FE971C9089F8003F11B4 /* TSServerManager.m */; };
+		FD89FEB01C909D5E003F11B4 /* TSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD89FEAF1C909D5E003F11B4 /* TSRequest.m */; };
+		FDA417ED1C9614AD00FA5CA2 /* NSString+TSStringTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA417EC1C9614AD00FA5CA2 /* NSString+TSStringTitle.m */; };
+		FDE44F651C94DE3A00F0070A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE44F641C94DE3A00F0070A /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD89FE7A1C904B07003F11B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD89FE581C904B01003F11B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD89FE5F1C904B02003F11B4;
+			remoteInfo = "Test Become a Millionaire";
+		};
+		FD89FE851C904B08003F11B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD89FE581C904B01003F11B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD89FE5F1C904B02003F11B4;
+			remoteInfo = "Test Become a Millionaire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD8005651CABD7BA00DC8A33 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		FD8005661CABD7BA00DC8A33 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		FD8005671CABD7BA00DC8A33 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		FD8005681CABD7BA00DC8A33 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		FD8005691CABD7BA00DC8A33 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FD80056A1CABD7BA00DC8A33 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		FD80056B1CABD7BA00DC8A33 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		FD80056C1CABD7BA00DC8A33 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		FD80056D1CABD7BA00DC8A33 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FD80056E1CABD7BA00DC8A33 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FD80056F1CABD7BA00DC8A33 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		FD8005701CABD7BA00DC8A33 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		FD8005711CABD7BA00DC8A33 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		FD8005731CABD7BA00DC8A33 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		FD8005741CABD7BA00DC8A33 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		FD8005751CABD7BA00DC8A33 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		FD8005761CABD7BA00DC8A33 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		FD8005771CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		FD8005781CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		FD8005791CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		FD80057A1CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		FD80057B1CABD7BA00DC8A33 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		FD80057C1CABD7BA00DC8A33 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		FD80057D1CABD7BA00DC8A33 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		FD80057E1CABD7BA00DC8A33 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		FD80057F1CABD7BA00DC8A33 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		FD8005801CABD7BA00DC8A33 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FD8005811CABD7BA00DC8A33 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		FD8005821CABD7BA00DC8A33 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		FD8005831CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		FD8005841CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		FD8005851CABD7BA00DC8A33 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FD8005861CABD7BA00DC8A33 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		FD8005961CABDDA100DC8A33 /* 7b9148f8c96e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7b9148f8c96e.mp3; sourceTree = "<group>"; };
+		FD879D401C96EEC0004F9FCD /* TSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCustomButton.h; sourceTree = "<group>"; };
+		FD879D411C96EEC0004F9FCD /* TSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCustomButton.m; sourceTree = "<group>"; };
+		FD89FE601C904B02003F11B4 /* Test Become a Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Become a Millionaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD89FE641C904B04003F11B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD89FE661C904B04003F11B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD89FE671C904B06003F11B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD89FE691C904B06003F11B4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FD89FE6A1C904B06003F11B4 /* MainViewController.m */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FD89FE6D1C904B07003F11B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD89FE6F1C904B07003F11B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD89FE721C904B07003F11B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD89FE741C904B07003F11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD89FE791C904B07003F11B4 /* Test Become a MillionaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Become a MillionaireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD89FE7D1C904B08003F11B4 /* Test_Become_a_MillionaireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Become_a_MillionaireTests.m; sourceTree = "<group>"; };
+		FD89FE7F1C904B08003F11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD89FE841C904B08003F11B4 /* Test Become a MillionaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Become a MillionaireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD89FE881C904B08003F11B4 /* Test_Become_a_MillionaireUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Become_a_MillionaireUITests.m; sourceTree = "<group>"; };
+		FD89FE8A1C904B08003F11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD89FE961C9089F8003F11B4 /* TSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSServerManager.h; sourceTree = "<group>"; };
+		FD89FE971C9089F8003F11B4 /* TSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSServerManager.m; sourceTree = "<group>"; };
+		FD89FEAE1C909D5E003F11B4 /* TSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRequest.h; sourceTree = "<group>"; };
+		FD89FEAF1C909D5E003F11B4 /* TSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRequest.m; sourceTree = "<group>"; };
+		FDA417EB1C9614AD00FA5CA2 /* NSString+TSStringTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TSStringTitle.h"; sourceTree = "<group>"; };
+		FDA417EC1C9614AD00FA5CA2 /* NSString+TSStringTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TSStringTitle.m"; sourceTree = "<group>"; };
+		FDE44F641C94DE3A00F0070A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD89FE5D1C904B02003F11B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE44F651C94DE3A00F0070A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE761C904B07003F11B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE811C904B08003F11B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD8005641CABD7BA00DC8A33 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FD8005651CABD7BA00DC8A33 /* AFHTTPSessionManager.h */,
+				FD8005661CABD7BA00DC8A33 /* AFHTTPSessionManager.m */,
+				FD8005671CABD7BA00DC8A33 /* AFNetworking.h */,
+				FD8005681CABD7BA00DC8A33 /* AFNetworkReachabilityManager.h */,
+				FD8005691CABD7BA00DC8A33 /* AFNetworkReachabilityManager.m */,
+				FD80056A1CABD7BA00DC8A33 /* AFSecurityPolicy.h */,
+				FD80056B1CABD7BA00DC8A33 /* AFSecurityPolicy.m */,
+				FD80056C1CABD7BA00DC8A33 /* AFURLRequestSerialization.h */,
+				FD80056D1CABD7BA00DC8A33 /* AFURLRequestSerialization.m */,
+				FD80056E1CABD7BA00DC8A33 /* AFURLResponseSerialization.h */,
+				FD80056F1CABD7BA00DC8A33 /* AFURLResponseSerialization.m */,
+				FD8005701CABD7BA00DC8A33 /* AFURLSessionManager.h */,
+				FD8005711CABD7BA00DC8A33 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../../../Book/Downloads/AFNetworking-master/AFNetworking";
+			sourceTree = "<group>";
+		};
+		FD8005721CABD7BA00DC8A33 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FD8005731CABD7BA00DC8A33 /* AFAutoPurgingImageCache.h */,
+				FD8005741CABD7BA00DC8A33 /* AFAutoPurgingImageCache.m */,
+				FD8005751CABD7BA00DC8A33 /* AFImageDownloader.h */,
+				FD8005761CABD7BA00DC8A33 /* AFImageDownloader.m */,
+				FD8005771CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.h */,
+				FD8005781CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.m */,
+				FD8005791CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.h */,
+				FD80057A1CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.m */,
+				FD80057B1CABD7BA00DC8A33 /* UIButton+AFNetworking.h */,
+				FD80057C1CABD7BA00DC8A33 /* UIButton+AFNetworking.m */,
+				FD80057D1CABD7BA00DC8A33 /* UIImage+AFNetworking.h */,
+				FD80057E1CABD7BA00DC8A33 /* UIImageView+AFNetworking.h */,
+				FD80057F1CABD7BA00DC8A33 /* UIImageView+AFNetworking.m */,
+				FD8005801CABD7BA00DC8A33 /* UIKit+AFNetworking.h */,
+				FD8005811CABD7BA00DC8A33 /* UIProgressView+AFNetworking.h */,
+				FD8005821CABD7BA00DC8A33 /* UIProgressView+AFNetworking.m */,
+				FD8005831CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.h */,
+				FD8005841CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.m */,
+				FD8005851CABD7BA00DC8A33 /* UIWebView+AFNetworking.h */,
+				FD8005861CABD7BA00DC8A33 /* UIWebView+AFNetworking.m */,
+			);
+			name = "UIKit+AFNetworking";
+			path = "../../../Book/Downloads/AFNetworking-master/UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		FD8005981CABDF8E00DC8A33 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FDA417EB1C9614AD00FA5CA2 /* NSString+TSStringTitle.h */,
+				FDA417EC1C9614AD00FA5CA2 /* NSString+TSStringTitle.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		FD8005991CABDFC000DC8A33 /* Requests to the server */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FEAE1C909D5E003F11B4 /* TSRequest.h */,
+				FD89FEAF1C909D5E003F11B4 /* TSRequest.m */,
+				FD89FE961C9089F8003F11B4 /* TSServerManager.h */,
+				FD89FE971C9089F8003F11B4 /* TSServerManager.m */,
+			);
+			name = "Requests to the server";
+			sourceTree = "<group>";
+		};
+		FD80059A1CABDFD100DC8A33 /* Custom buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FD879D401C96EEC0004F9FCD /* TSCustomButton.h */,
+				FD879D411C96EEC0004F9FCD /* TSCustomButton.m */,
+			);
+			name = "Custom buttons";
+			sourceTree = "<group>";
+		};
+		FD8593301CE46AED00E0425B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE691C904B06003F11B4 /* MainViewController.h */,
+				FD89FE6A1C904B06003F11B4 /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FD89FE571C904B00003F11B4 = {
+			isa = PBXGroup;
+			children = (
+				FDE44F641C94DE3A00F0070A /* AVFoundation.framework */,
+				FD89FE991C90910A003F11B4 /* Libs */,
+				FD89FE621C904B03003F11B4 /* Test Become a Millionaire */,
+				FD89FE7C1C904B08003F11B4 /* Test Become a MillionaireTests */,
+				FD89FE871C904B08003F11B4 /* Test Become a MillionaireUITests */,
+				FD89FE611C904B02003F11B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD89FE611C904B02003F11B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE601C904B02003F11B4 /* Test Become a Millionaire.app */,
+				FD89FE791C904B07003F11B4 /* Test Become a MillionaireTests.xctest */,
+				FD89FE841C904B08003F11B4 /* Test Become a MillionaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD89FE621C904B03003F11B4 /* Test Become a Millionaire */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE661C904B04003F11B4 /* AppDelegate.h */,
+				FD89FE671C904B06003F11B4 /* AppDelegate.m */,
+				FD8005991CABDFC000DC8A33 /* Requests to the server */,
+				FD8593301CE46AED00E0425B /* Controller */,
+				FD80059A1CABDFD100DC8A33 /* Custom buttons */,
+				FD8005981CABDF8E00DC8A33 /* Category */,
+				FD89FE6C1C904B07003F11B4 /* Main.storyboard */,
+				FDA417EF1C9618DB00FA5CA2 /* Sample */,
+				FD89FE6F1C904B07003F11B4 /* Assets.xcassets */,
+				FD89FE711C904B07003F11B4 /* LaunchScreen.storyboard */,
+				FD89FE741C904B07003F11B4 /* Info.plist */,
+				FD89FE631C904B03003F11B4 /* Supporting Files */,
+			);
+			path = "Test Become a Millionaire";
+			sourceTree = "<group>";
+		};
+		FD89FE631C904B03003F11B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE641C904B04003F11B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD89FE7C1C904B08003F11B4 /* Test Become a MillionaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE7D1C904B08003F11B4 /* Test_Become_a_MillionaireTests.m */,
+				FD89FE7F1C904B08003F11B4 /* Info.plist */,
+			);
+			path = "Test Become a MillionaireTests";
+			sourceTree = "<group>";
+		};
+		FD89FE871C904B08003F11B4 /* Test Become a MillionaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE881C904B08003F11B4 /* Test_Become_a_MillionaireUITests.m */,
+				FD89FE8A1C904B08003F11B4 /* Info.plist */,
+			);
+			path = "Test Become a MillionaireUITests";
+			sourceTree = "<group>";
+		};
+		FD89FE991C90910A003F11B4 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FD89FE9A1C90911D003F11B4 /* AFNetworking */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		FD89FE9A1C90911D003F11B4 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FD8005641CABD7BA00DC8A33 /* AFNetworking */,
+				FD8005721CABD7BA00DC8A33 /* UIKit+AFNetworking */,
+			);
+			name = AFNetworking;
+			path = "../../../Downloads/AFNetworking-master/AFNetworking";
+			sourceTree = "<group>";
+		};
+		FDA417EF1C9618DB00FA5CA2 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				FD8005961CABDDA100DC8A33 /* 7b9148f8c96e.mp3 */,
+			);
+			name = Sample;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD89FE5F1C904B02003F11B4 /* Test Become a Millionaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD89FE8D1C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a Millionaire" */;
+			buildPhases = (
+				FD89FE5C1C904B02003F11B4 /* Sources */,
+				FD89FE5D1C904B02003F11B4 /* Frameworks */,
+				FD89FE5E1C904B02003F11B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Become a Millionaire";
+			productName = "Test Become a Millionaire";
+			productReference = FD89FE601C904B02003F11B4 /* Test Become a Millionaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD89FE781C904B07003F11B4 /* Test Become a MillionaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD89FE901C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a MillionaireTests" */;
+			buildPhases = (
+				FD89FE751C904B07003F11B4 /* Sources */,
+				FD89FE761C904B07003F11B4 /* Frameworks */,
+				FD89FE771C904B07003F11B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD89FE7B1C904B07003F11B4 /* PBXTargetDependency */,
+			);
+			name = "Test Become a MillionaireTests";
+			productName = "Test Become a MillionaireTests";
+			productReference = FD89FE791C904B07003F11B4 /* Test Become a MillionaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD89FE831C904B08003F11B4 /* Test Become a MillionaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD89FE931C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a MillionaireUITests" */;
+			buildPhases = (
+				FD89FE801C904B08003F11B4 /* Sources */,
+				FD89FE811C904B08003F11B4 /* Frameworks */,
+				FD89FE821C904B08003F11B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD89FE861C904B08003F11B4 /* PBXTargetDependency */,
+			);
+			name = "Test Become a MillionaireUITests";
+			productName = "Test Become a MillionaireUITests";
+			productReference = FD89FE841C904B08003F11B4 /* Test Become a MillionaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD89FE581C904B01003F11B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tsvigun Alexandr";
+				TargetAttributes = {
+					FD89FE5F1C904B02003F11B4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D7GRV784H;
+					};
+					FD89FE781C904B07003F11B4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FD89FE5F1C904B02003F11B4;
+					};
+					FD89FE831C904B08003F11B4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FD89FE5F1C904B02003F11B4;
+					};
+				};
+			};
+			buildConfigurationList = FD89FE5B1C904B01003F11B4 /* Build configuration list for PBXProject "Test Become a Millionaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD89FE571C904B00003F11B4;
+			productRefGroup = FD89FE611C904B02003F11B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD89FE5F1C904B02003F11B4 /* Test Become a Millionaire */,
+				FD89FE781C904B07003F11B4 /* Test Become a MillionaireTests */,
+				FD89FE831C904B08003F11B4 /* Test Become a MillionaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD89FE5E1C904B02003F11B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FE731C904B07003F11B4 /* LaunchScreen.storyboard in Resources */,
+				FD89FE701C904B07003F11B4 /* Assets.xcassets in Resources */,
+				FD89FE6E1C904B07003F11B4 /* Main.storyboard in Resources */,
+				FD8005971CABDDA100DC8A33 /* 7b9148f8c96e.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE771C904B07003F11B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE821C904B08003F11B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD89FE5C1C904B02003F11B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FEB01C909D5E003F11B4 /* TSRequest.m in Sources */,
+				FDA417ED1C9614AD00FA5CA2 /* NSString+TSStringTitle.m in Sources */,
+				FD80058F1CABD7BA00DC8A33 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				FD89FE6B1C904B06003F11B4 /* MainViewController.m in Sources */,
+				FD8005871CABD7BA00DC8A33 /* AFHTTPSessionManager.m in Sources */,
+				FD89FE981C9089F8003F11B4 /* TSServerManager.m in Sources */,
+				FD8005881CABD7BA00DC8A33 /* AFNetworkReachabilityManager.m in Sources */,
+				FD879D421C96EEC0004F9FCD /* TSCustomButton.m in Sources */,
+				FD8005921CABD7BA00DC8A33 /* UIImageView+AFNetworking.m in Sources */,
+				FD8005931CABD7BA00DC8A33 /* UIProgressView+AFNetworking.m in Sources */,
+				FD80058C1CABD7BA00DC8A33 /* AFURLSessionManager.m in Sources */,
+				FD8005941CABD7BA00DC8A33 /* UIRefreshControl+AFNetworking.m in Sources */,
+				FD80058E1CABD7BA00DC8A33 /* AFImageDownloader.m in Sources */,
+				FD80058B1CABD7BA00DC8A33 /* AFURLResponseSerialization.m in Sources */,
+				FD8005911CABD7BA00DC8A33 /* UIButton+AFNetworking.m in Sources */,
+				FD89FE681C904B06003F11B4 /* AppDelegate.m in Sources */,
+				FD80058A1CABD7BA00DC8A33 /* AFURLRequestSerialization.m in Sources */,
+				FD80058D1CABD7BA00DC8A33 /* AFAutoPurgingImageCache.m in Sources */,
+				FD8005901CABD7BA00DC8A33 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				FD8005891CABD7BA00DC8A33 /* AFSecurityPolicy.m in Sources */,
+				FD8005951CABD7BA00DC8A33 /* UIWebView+AFNetworking.m in Sources */,
+				FD89FE651C904B04003F11B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE751C904B07003F11B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FE7E1C904B08003F11B4 /* Test_Become_a_MillionaireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD89FE801C904B08003F11B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89FE891C904B08003F11B4 /* Test_Become_a_MillionaireUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD89FE7B1C904B07003F11B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD89FE5F1C904B02003F11B4 /* Test Become a Millionaire */;
+			targetProxy = FD89FE7A1C904B07003F11B4 /* PBXContainerItemProxy */;
+		};
+		FD89FE861C904B08003F11B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD89FE5F1C904B02003F11B4 /* Test Become a Millionaire */;
+			targetProxy = FD89FE851C904B08003F11B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD89FE6C1C904B07003F11B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD89FE6D1C904B07003F11B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD89FE711C904B07003F11B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD89FE721C904B07003F11B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD89FE8B1C904B08003F11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD89FE8C1C904B08003F11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD89FE8E1C904B08003F11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Test Become a Millionaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-Millionaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD89FE8F1C904B08003F11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Test Become a Millionaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-Millionaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD89FE911C904B08003F11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Test Become a MillionaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-MillionaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Become a Millionaire.app/Test Become a Millionaire";
+			};
+			name = Debug;
+		};
+		FD89FE921C904B08003F11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Test Become a MillionaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-MillionaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Become a Millionaire.app/Test Become a Millionaire";
+			};
+			name = Release;
+		};
+		FD89FE941C904B08003F11B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Test Become a MillionaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-MillionaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Test Become a Millionaire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD89FE951C904B08003F11B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Test Become a MillionaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Test-Become-a-MillionaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Test Become a Millionaire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD89FE5B1C904B01003F11B4 /* Build configuration list for PBXProject "Test Become a Millionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FE8B1C904B08003F11B4 /* Debug */,
+				FD89FE8C1C904B08003F11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD89FE8D1C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a Millionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FE8E1C904B08003F11B4 /* Debug */,
+				FD89FE8F1C904B08003F11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD89FE901C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a MillionaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FE911C904B08003F11B4 /* Debug */,
+				FD89FE921C904B08003F11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD89FE931C904B08003F11B4 /* Build configuration list for PBXNativeTarget "Test Become a MillionaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD89FE941C904B08003F11B4 /* Debug */,
+				FD89FE951C904B08003F11B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD89FE581C904B01003F11B4 /* Project object */;
+}
